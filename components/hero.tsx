@@ -1,6 +1,7 @@
 import VideoThumb from "@/public/images/hero-image.png";
 import ModalVideo from "@/components/modal-video";
-import man from "@/public/images/man.png";
+import Image from "next/image";
+import man from "../public/images/man.png";
 
 export default function Hero() {
   return (
@@ -32,27 +33,25 @@ export default function Hero() {
           <g fill="url(#illustration-01)" fillRule="evenodd">
             <circle cx="1232" cy="128" r="128" />
             <circle cx="155" cy="443" r="64" />
+            <circle cx="700" cy="243" r="15" />
           </g>
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pt-20 md:flex items-center justify-center">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className="text-left pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-5xl md:text-4.5xl font-extrabold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
               A Power that Shines Your Business{" "}
-              {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                wonderful
-              </span> */}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-600 mb-8"
+                className="text-xl text-gray-600 mb-8 text-left"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
@@ -60,13 +59,13 @@ export default function Hero() {
                 industry.
               </p>
               <div
-                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
+                className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
-                <div>
+                <div className="flex justify-start">
                   <a
-                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                    className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-0"
                     href="#0"
                   >
                     Discover Demo
@@ -75,6 +74,15 @@ export default function Hero() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="md:ml-10 mt-10">
+          <Image
+            className="md:max-w-none mx-auto rounded"
+            src={man}
+            width={300}
+            height="150"
+            alt="Business man"
+          />
         </div>
       </div>
     </section>
