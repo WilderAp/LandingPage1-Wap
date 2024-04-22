@@ -7,20 +7,19 @@ import { LuUser2 } from "react-icons/lu";
 export default function Stats() {
   return (
     <section className="relative">
-      {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
-        className="absolute inset-0  md:mt-1 lg:mt-0  pointer-events-none"
+        className="absolute inset-0 md:mt-1 lg:mt-0 pointer-events-none"
         aria-hidden="true"
         style={{ backgroundColor: "#F8F8F8" }}
       ></div>
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 flex pt-40">
-        <div>
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-20 flex flex-col md:flex-row items-center justify-between">
+        <div className="text-center md:text-left mb-10 md:mb-0 md:w-1/2">
           <h2 className="expressa text-#212121 text-4xl font-bold mb-5">
             Let the Numbers Speak!
           </h2>
-          <p className="text-#212121 text-start mb-10">
+          <p className="text-#212121 text-start mb-5">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard
           </p>
@@ -39,57 +38,49 @@ export default function Stats() {
             </div>
           </div>
         </div>
-        <div className="">
+        <div className="flex flex-col md:flex-row gap-5">
           {/* Items section 1*/}
-          <div className="flex gap-5">
-            {/* max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none */}
-            {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60 mb-14">
-              <div className="rounded-full border-transparent bg-white p-6 mb-3">
-                <RiEmotionHappyLine size={40} />
-              </div>
-              <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa ">
-                1005+
-              </h4>
-              <p className="text-gray-600 text-center">Happy Clients</p>
+          <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60 mb-14 md:mb-0">
+            <div className="rounded-full border-transparent bg-white p-6 mb-3">
+              <RiEmotionHappyLine size={40} />
             </div>
-            {/* 2do item */}
-            <div className="relative flex flex-col items-center p-6 bg-white border rounded shadow-xl w-60 mt-14 ">
-              <div
-                className="rounded-full border-transparent bg-red p-6 mb-3"
-                style={{ backgroundColor: "#F8F8F8" }}
-              >
-                <LuUser2 size={40} />
-              </div>
-              <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa ">
-                20+
-              </h4>
-              <p className="text-gray-600 text-center">Specialits</p>
+            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa">
+              1005+
+            </h4>
+            <p className="text-gray-600 text-center">Happy Clients</p>
+          </div>
+          <div className="relative flex flex-col items-center p-6 bg-white border rounded shadow-xl w-60">
+            <div
+              className="rounded-full border-transparent bg-red p-6 mb-3"
+              style={{ backgroundColor: "#F8F8F8" }}
+            >
+              <LuUser2 size={40} />
             </div>
+            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa">
+              20+
+            </h4>
+            <p className="text-gray-600 text-center">Specialists</p>
           </div>
         </div>
       </div>
 
       {/* Items section 2*/}
-      <div className="flex justify-center ">
-        <div className="flex gap-5 mb-20">
-          {/* max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none */}
-          {/* 1st item */}
-          <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60 mb-14">
+      <div className="flex justify-center">
+        <div className="flex flex-col md:flex-row gap-5 mb-20">
+          <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60 mb-14 md:mb-0">
             <div className="rounded-full border-transparent bg-white p-6 mb-3">
               <LuClipboardCheck size={40} />
             </div>
-            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa ">
+            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa">
               10+
             </h4>
             <p className="text-gray-600 text-center">Years of operation</p>
           </div>
-          {/* 2do item */}
-          <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60 mt-14 ">
+          <div className="relative flex flex-col items-center p-6 bg-transparent border rounded shadow-xl w-60">
             <div className="rounded-full border-transparent bg-white p-6 mb-3">
               <TfiStatsUp size={40} />
             </div>
-            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa ">
+            <h4 className="text-4xl font-bold leading-snug tracking-tight mb-1 expressa">
               360+
             </h4>
             <p className="text-gray-600 text-center">Projects delivered</p>
