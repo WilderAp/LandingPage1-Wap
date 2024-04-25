@@ -1,0 +1,180 @@
+
+{
+    "section-one": {
+        "header": "",
+        "title": "Miguelangel",
+        "title2": "Herrera",
+        "navitems": "",
+        "item1": "Home",
+        "item2": "about",
+        "item3": "Services",
+        "item4": "Contact Us",
+        "button": "Book Appointment"
+        
+    }, 
+    "section-two": { 
+        "hero": "",
+        "title": "A Power that Shines Your Business",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "button": "Discover Demo",
+        "image": ""
+    },
+    "section-three": {
+        "features": "",
+        "title": "The Professional Consultation Platform For Your Real Estate and Finance",
+        "item1": {
+            "logo": "",
+            "title": "We Innovate",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        "item2": {
+            "logo": "",
+            "title": "Performance",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        "item3": {
+            "logo": "",
+            "title": "A full Service",
+            "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+    },
+    "section-four": {
+        "services": "",
+        "title": "Explore Our Services",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "items": [
+        {
+            "title": "Estate Planning",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        
+        {
+            "title": "Strategy and Planning",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "title": "Strategy and Planning",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "title": "Resources",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "title": "Taxes and Efficiency",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "title": "Investment Area",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+            "title": "Consumer Markets",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ]
+    },
+    "section-five": {
+        "contact": "",
+        "title": "Make An Appointment Experience Elegance",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "body2": "Call Us +123 456 789",
+        "button": "¡Contact!"
+    },
+    "section-six": {
+        "stats": "",
+        "title": "Let the Numbers Speak!",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "button": "Contact Us"
+    },
+    "section-seven": {
+        "teamMembers": "",
+        "title": "Meet Our Experts",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "members" : [
+            {
+              "id": 1,
+              "name": "Tiara Lyodra",
+              "role": "Co-Founder",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 2,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 3,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 4,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 5,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 6,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 7,
+              "name": "Landon Coleman",
+              "role": "Finance Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            },
+            {
+              "id": 8,
+              "name": "Landon Coleman",
+              "role": "Real Estate Expert",
+              "image": "@/public/images/Member/onemember.jpg"
+            }
+          ]
+    },
+    "section-eight": {
+        "projects": "",
+        "title": "Our Projects",
+        "body": [
+            {
+                "id": 1,
+                "picture": "../../public/images/project.jpg",
+                "name": "Project Herrera",
+                "role": "Project 1 / Project"
+            }
+            
+        ]
+    },
+    "section-nine": {
+        "clients": "",
+        "title": "What Our Clients Say",
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "client1": {
+            "body": "“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard “",
+            "name": "Ronny Abel",
+            "role": "Bussines man"
+        }
+    },   
+    "section-ten": {
+        "band": "",
+        "title": "¿Do You Want To Get involved?",
+        "button": "¡Contact us!"
+    },
+    "section-eleven": {
+        "footer": "",
+        "title": "Miguelangel Herrera"
+    }
+    
+    
+
+}

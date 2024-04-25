@@ -5,12 +5,13 @@ export const metadata = {
 
 import Hero from "@/components/hero";
 import Features from "@/components/features";
-import FeaturesBlocks from "@/components/features-blocks";
+import Services from "@/components/services";
 import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
 import ContactUs from "@/components/contactUs";
 import Stats from "@/components/stats";
 import TeamMembers from "@/components/team";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         <Features />
       </section>
       <section id="features-blocks" className="features-blocks">
-        <FeaturesBlocks />
+        <Services />
       </section>
       <section id="contact-us" className="contact-us">
         <ContactUs />
@@ -32,6 +33,9 @@ export default function Home() {
       </section>
       <section>
         <TeamMembers />
+      </section>
+      <section>
+        <Projects />
       </section>
       <section>
         <Testimonials />

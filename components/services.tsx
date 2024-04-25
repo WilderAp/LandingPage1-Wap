@@ -1,4 +1,4 @@
-export default function FeaturesBlocks() {
+export default function Services() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
