@@ -1,7 +1,6 @@
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
 import Image from "next/image";
 import man from "../public/images/man.png";
+import texts from "@/components/utils/sections.json";
 
 export default function Hero() {
   return (
@@ -47,7 +46,7 @@ export default function Hero() {
               className="text-5xl md:text-4.5xl font-extrabold leading-tighter tracking-tighter mb-4 expressa"
               data-aos="zoom-y-out"
             >
-              A Power that Shines Your Business{" "}
+              {texts["section-two"].title}{" "}
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
@@ -55,8 +54,7 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+                {texts["section-two"].body}
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"
@@ -76,13 +74,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="md:ml-10 mt-10">
-          <Image
+          {/* <Image
             className="md:max-w-none mx-auto rounded"
-            src={man}
+            src={texts["section-two"].image}
             width={300}
             height="150"
             alt="Business man"
-          />
+          /> */}
+          <img src={texts["section-two"].image} alt="1" />
         </div>
       </div>
     </section>

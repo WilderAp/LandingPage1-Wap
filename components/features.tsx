@@ -1,35 +1,31 @@
 "use client";
 
+import texts from "@/components/utils/sections.json";
 import { IoMdPaper } from "react-icons/io";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { ImStatsBars } from "react-icons/im";
 import { useState, useRef, useEffect } from "react";
-import { Transition } from "@headlessui/react";
-import Image from "next/image";
-import FeaturesBg from "@/public/images/features-bg.png";
-import FeaturesElement from "@/public/images/features-element.png";
-import { title } from "process";
 
 const cardsInfo = [
   {
     id: 1,
-    title: "We Innovate",
+    title: "Mission",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Our mission is to transform the way leadership skills are developed, providing an unparalleled learning experience that transcends the boundaries of convention. We strive to empower the leaders of tomorrow with the tools and confidence necessary to meet the challenges of the ever-evolving business world.",
     icon: <HiOutlineLightBulb size={75} />,
   },
   {
     id: 2,
-    title: "Performance",
+    title: "Vision",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "We envision a future where every leader has access to a revolutionary platform that allows them to practice, hone and master their management skills in a realistic virtual environment. We want to be recognized as the gold standard in leadership training, driving individual and organizational success around the world.",
     icon: <ImStatsBars size={75} />,
   },
   {
     id: 3,
-    title: "A Full Service",
+    title: "What makes us different",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "At VR Executive Mastery, we not only offer a virtual reality platform for management skills training, but we also provide a complete and personalized experience. Our attention to detail, our focus on quality and our passion for innovation set us apart in the market. In addition, our platform adapts to the specific needs of each client, guaranteeing effective and relevant learning.",
     icon: <IoMdPaper size={75} />,
   },
 ];
@@ -52,10 +48,14 @@ export default function Features() {
     <section className="relative max-w-6xl mx-auto px-4 sm:px-6">
       <div className="pt-12 md:pt-20">
         <div className="text-left pb-12">
-          <h1 className="h2 mb-4 expressa">
-            The Professional Consultation Platform For Your Real Estate and
-            Finance
-          </h1>
+          <h1 className="h2 mb-4 expressa">{texts["section-three"].title}</h1>
+          <p
+            className="text-xl text-gray-600 mb-8 text-left"
+            data-aos="zoom-y-out"
+            data-aos-delay="150"
+          >
+            {texts["section-three"].body}
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {cardsInfo.map((card) => (
               <div
@@ -65,14 +65,14 @@ export default function Features() {
                 <div className="p-6">
                   <div className="mr-4">{card.icon}</div>
                   <div>
-                    <a href="#">
+                    <div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black expressa">
                         {card.title}
                       </h5>
                       <p className="font-normal text-gray-700 dark:text-gray-400">
                         {card.description}
                       </p>
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>

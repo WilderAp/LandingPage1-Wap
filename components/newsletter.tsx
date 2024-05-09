@@ -1,3 +1,5 @@
+import texts from "@/components/utils/sections.json";
+
 export default function Newsletter() {
   return (
     <section>
@@ -14,6 +16,7 @@ export default function Newsletter() {
               aria-hidden="true"
             >
               <svg width="428" height="328" xmlns="http://www.w3.org/2000/svg">
+                <title>contact</title>
                 <defs>
                   <radialGradient
                     cx="35.542%"
@@ -92,20 +95,17 @@ export default function Newsletter() {
               </svg>
             </div>
 
-            <div className="relative flex flex-col lg:flex-row justify-between items-center">
+            <div className="relative  text-start  items-center">
               {/* CTA content */}
               <h3 className="h3 text-white mb-2 expressa">
-                Do You Want To Get involved?
+                {texts["section-ten"].title}
               </h3>
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:mx-0">
-                <a
-                  className="btn text-black bg-white hover:bg-black-700 shadow"
-                  href="mailto:correo@example.com"
-                  target="_blank"
-                >
-                  ¡Contact me!
-                </a>
-              </div>
+              <p
+                className="font-normal text-white dark:text-gray-400"
+                style={{ width: "500px" }}
+              >
+                {texts["section-ten"].body}
+              </p>
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import { RiEmotionHappyLine } from "react-icons/ri";
 import { LuClipboardCheck } from "react-icons/lu";
-import { FcStatistics } from "react-icons/fc";
 import { TfiStatsUp } from "react-icons/tfi";
 import { LuUser2 } from "react-icons/lu";
+import texts from "@/components/utils/sections.json";
 
 export default function Stats() {
   return (
@@ -17,11 +17,10 @@ export default function Stats() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-20 flex flex-col md:flex-row items-center justify-between">
         <div className="text-center md:text-left mb-10 md:mb-0 md:w-1/2">
           <h2 className="expressa text-#212121 text-4xl font-bold mb-5">
-            Let the Numbers Speak!
+            {texts["section-six"].title}
           </h2>
           <p className="text-#212121 text-start mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard
+            {texts["section-six"].body}
           </p>
           <div
             className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-start"

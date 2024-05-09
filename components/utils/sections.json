@@ -14,14 +14,15 @@
     }, 
     "section-two": { 
         "hero": "",
-        "title": "A Power that Shines Your Business",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "title": "Lead the future with VR Executive Mastery",
+        "body": "where innovation meets experience.",
         "button": "Discover Demo",
-        "image": ""
+        "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1715275799/VR%20Executive/ltsu1qd1bjia6pahsegv.png"
     },
     "section-three": {
         "features": "",
-        "title": "The Professional Consultation Platform For Your Real Estate and Finance",
+        "title": "About us:",
+        "body": "At VR Executive Mastery, we are dedicated to driving the leadership of tomorrow through the cutting edge of technology. We are pioneers in the development of a virtual reality platform designed specifically for management skills training. With a team of technology and leadership experts, we are committed to taking executive training to a new level of immersion and effectiveness.",
         "item1": {
             "logo": "",
             "title": "We Innovate",
@@ -40,57 +41,45 @@
     },
     "section-four": {
         "services": "",
-        "title": "Explore Our Services",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "title": "Why trust us",
+        "body": "Trust VR Executive Mastery to take your leadership development to the next level. We have a team of technology and leadership experts who are committed to your success. Our platform has been tested and supported by industry leaders, and our customer support is second to none. With us, you can trust that you will receive a top-notch training experience that will make a difference in your career and your company.",
         "items": [
         {
-            "title": "Estate Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "title": "Experience",
+            "body": "Immerse yourself in realistic situations that challenge you to develop your management skills."
         },
         
         {
-            "title": "Strategy and Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "title": "Instant Feedback",
+            "body": "Receive detailed feedback on your actions and decisions for constant growth."
         },
         {
-            "title": "Strategy and Planning",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "title": "Flexibility",
+            "body": " Access the platform from anywhere and at any time, adapting to your busy schedule."
         },
         {
-            "title": "Resources",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Taxes and Efficiency",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Investment Area",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        },
-        {
-            "title": "Consumer Markets",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            "title": "Efficiency",
+            "body": "Learn faster and more effectively through repeated practice in a safe, controlled environment."
         }
       ]
     },
     "section-five": {
         "contact": "",
-        "title": "Make An Appointment Experience Elegance",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "title": "Who has trusted us",
+        "body": "Leading companies in various industries, from innovative startups to Fortune 500 corporations, have trusted VR Executive Mastery to train their leaders and teams. Our clients include prominent names who recognize the value of technology and continuous training in business success.",
         "body2": "Call Us +123 456 789",
         "button": "¡Contact!"
     },
     "section-six": {
         "stats": "",
-        "title": "Let the Numbers Speak!",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "title": "Ready to take your leadership to the next level?",
+        "body": "Join VR Executive Mastery today and discover how virtual reality can transform your professional development.",
         "button": "Contact Us"
     },
     "section-seven": {
         "teamMembers": "",
         "title": "Meet Our Experts",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "body": "At VR Executive Mastery, we are dedicated to revolutionizing management skills development. Our technology platform offers a unique immersive experience, where the leaders of tomorrow can train in a realistic virtual environment, facing challenges and making crucial decisions, all while receiving real-time feedback.",
         "members" : [
             {
               "id": 1,
@@ -148,7 +137,7 @@
         "body": [
             {
                 "id": 1,
-                "picture": "../../public/images/project.jpg",
+                "picture": "https://res.cloudinary.com/db60chvpz/image/upload/v1714140733/cndf3ttmphuufsixpxov.png",
                 "name": "Project Herrera",
                 "role": "Project 1 / Project"
             }
@@ -158,17 +147,17 @@
     "section-nine": {
         "clients": "",
         "title": "What Our Clients Say",
-        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+        "body": "Leadership in a New Horizon: VR Executive Mastery",
         "client1": {
-            "body": "“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard “",
-            "name": "Ronny Abel",
-            "role": "Bussines man"
+            "body": "“ VR Executive Mastery has been a game changer for me as a leader. The ability to practice difficult situations in a virtual environment has given me the confidence and skills necessary to face real-world challenges. “",
+            "name": "Ana G",
+            "role": "C E O"
         }
     },   
     "section-ten": {
         "band": "",
-        "title": "¿Do You Want To Get involved?",
-        "button": "¡Contact us!"
+        "title": "¿Ready to take your leadership to the next level?",
+        "body": "Join VR Executive Mastery today and discover how virtual reality can transform your professional development."
     },
     "section-eleven": {
         "footer": "",

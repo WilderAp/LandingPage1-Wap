@@ -1,3 +1,5 @@
+import texts from "@/components/utils/sections.json";
+
 export default function ContactUs() {
   return (
     <section className="relative">
@@ -10,11 +12,10 @@ export default function ContactUs() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-20 flex flex-col md:flex-row items-center justify-between">
         <div className="text-center md:text-left mb-10 md:mb-0 md:w-1/2">
           <h2 className="expressa text-white text-4xl font-bold mb-5">
-            Make An Appointment Experience Elegance
+            {texts["section-five"].title}
           </h2>
-          <p className="text-white text-start mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard
+          <p className="text-white text-start mb-5 pr-5">
+            {texts["section-five"].body}
           </p>
           <div className="flex items-center justify-center md:justify-start">
             <svg width="122" height="17" className="mx-2">
@@ -27,7 +28,7 @@ export default function ContactUs() {
                 strokeWidth="2"
               />
             </svg>
-            <h2 className="expressa text-white text-4xl font-bold mx-2">OR</h2>
+            {/* <h2 className="expressa text-white text-4xl font-bold mx-2">OR</h2> */}
             <svg width="122" height="17" className="mx-2">
               <line
                 x1="6"
@@ -39,17 +40,18 @@ export default function ContactUs() {
               />
             </svg>
           </div>
-          <h2 className="expressa text-white text-3xl font-bold mt-5">
+          {/* <h2 className="expressa text-white text-3xl font-bold mt-5">
             Call Us +123 456 789
-          </h2>
+          </h2> */}
         </div>
         <div className="py-6 md:py-0 md:w-1/2 px-6 sm:px-10 md:px-0">
           <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
             <div className="max-w-xs mx-auto">
               <a
                 className="btn text-white bg-black hover:bg-black-700 shadow w-full"
-                href="mailto:correo@example.com"
+                href="mailto:executivemastery@gmail.com"
                 target="_blank"
+                rel="noreferrer"
               >
                 ¡Contact!
               </a>

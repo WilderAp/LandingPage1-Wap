@@ -1,4 +1,6 @@
 import "@/app/css/fonts.css";
+import Image from "next/image";
+import logo from "@/public/images/logo.png";
 
 export default function Footer() {
   return (
@@ -12,7 +14,9 @@ export default function Footer() {
               className="text-gray-800 font-medium mb-2 expressa"
               style={{ fontSize: "25px" }}
             >
-              Miguelangel Herrera
+              <a href="/">
+                <Image src={logo} alt="logo" width={240} height={150} />
+              </a>
             </h6>
             <ul className="text-sm">
               <li className="mb-2">

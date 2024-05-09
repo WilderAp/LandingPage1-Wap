@@ -35,9 +35,6 @@ export default function Home() {
         <TeamMembers />
       </section>
       <section>
-        <Projects />
-      </section>
-      <section>
         <Testimonials />
       </section>
       <section>

@@ -1,6 +1,9 @@
 "use client";
 
+import texts from "@/components/utils/sections.json";
 import { useState, useEffect } from "react";
+import logo from "@/public/images/logo.png";
+import Image from "next/image";
 
 export default function Header() {
   const [top, setTop] = useState<boolean>(true);
@@ -34,8 +37,9 @@ export default function Header() {
               flexDirection: "column",
             }}
           >
-            <span>Miguelangel</span>
-            <span style={{ paddingLeft: "15px" }}>Herrera</span>
+            <a href="/">
+              <Image src={logo} alt="logo" width={240} height={150} />
+            </a>
           </div>
 
           {/* Desktop navigation */}
@@ -68,7 +72,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="https://vrexecutivemastery.blog.jumpylife.com/"
                   rel="noreferrer"
                   target="_blank"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"

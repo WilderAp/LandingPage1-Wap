@@ -1,6 +1,6 @@
 import Image from "next/image";
 import member from "@/public/images/Member/onemember.jpg";
-import member1 from "@/public/images/Member/member.jpg";
+import texts from "@/components/utils/sections.json";
 
 const members = [
   {
@@ -67,32 +67,10 @@ export default function TeamMembers() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Meet Our Experts</h2>
+            <h2 className="h2 mb-4">{}</h2>
             <p className="text-xl text-gray-600">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard
+              {texts["section-seven"].body}
             </p>
-          </div>
-
-          {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">
-            {/* 1st item */}
-            {members.map((member) => (
-              <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-                <Image
-                  className="relative rounded-full"
-                  src={member.image}
-                  width={110}
-                  height={110}
-                  alt="Testimonial 01"
-                  style={{ marginBottom: "20px", marginTop: "20px" }}
-                />
-                <h4 className="text-md font-bold leading-snug tracking-tight mb-1">
-                  {member.name}
-                </h4>
-                <p className="text-gray-600 text-center">{member.role}</p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
