@@ -38,6 +38,9 @@ export default function Home() {
         <Testimonials />
       </section>
       <section>
+        <Projects />
+      </section>
+      <section className="mt-10">
         <Newsletter />
       </section>
     </>

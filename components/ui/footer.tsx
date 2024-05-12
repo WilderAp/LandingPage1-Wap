@@ -32,17 +32,13 @@ export default function Footer() {
                 <a
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Info@Support.com
-                </a>
+                ></a>
               </li>
               <li className="mb-2">
                 <a
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  +123 456 789
-                </a>
+                ></a>
               </li>
             </ul>
           </div>
@@ -55,7 +51,7 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/#hero"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Home
@@ -63,7 +59,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/#features"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   About
@@ -71,7 +67,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/#features-blocks"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Services
@@ -79,7 +75,7 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="/#contact-us"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Contact Us
@@ -96,26 +92,12 @@ export default function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <a
-                  href="#0"
+                  href="https://vrexecutivemastery.blog.jumpylife.com/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Testimonials
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Check Our Pricing Plan
-                </a>
-              </li>
-              <li className="mb-2">
-                <a
-                  href="#0"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Expert Team
+                  Blog
                 </a>
               </li>
             </ul>

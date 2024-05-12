@@ -90,10 +90,12 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="mailto:executivemastery@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                 >
-                  <span>Book Appointment</span>
+                  <span>Contact</span>
                 </a>
               </li>
             </ul>
