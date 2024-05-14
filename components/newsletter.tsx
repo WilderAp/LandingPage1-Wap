@@ -102,7 +102,7 @@ export default function Newsletter() {
               </h3>
               <p
                 className="font-normal text-white dark:text-gray-400"
-                style={{ width: "500px" }}
+                style={{ maxWidth: "500px" }}
               >
                 {texts["section-ten"].body}
               </p>
