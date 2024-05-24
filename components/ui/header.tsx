@@ -2,7 +2,7 @@
 
 import texts from "@/components/utils/sections.json";
 import { useState, useEffect } from "react";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/LeadLogo.png";
 import Image from "next/image";
 
 export default function Header() {
@@ -26,7 +26,7 @@ export default function Header() {
       }`}
       style={{ paddingTop: "30px" }}
     >
-      <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <div className="max-w-6xl mx-auto ">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
           <div
@@ -38,7 +38,7 @@ export default function Header() {
             }}
           >
             <a href="/">
-              <Image src={logo} alt="logo" width={240} height={150} />
+              <Image src={logo} alt="logo" width={210} height={150} />
             </a>
           </div>
 

@@ -1,6 +1,6 @@
 import "@/app/css/fonts.css";
 import Image from "next/image";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/LeadLogo.png";
 
 export default function Footer() {
   return (
@@ -15,7 +15,7 @@ export default function Footer() {
               style={{ fontSize: "25px" }}
             >
               <a href="/">
-                <Image src={logo} alt="logo" width={240} height={150} />
+                <Image src={logo} alt="logo" width={180} height={150} />
               </a>
             </h6>
             <ul className="text-sm">
