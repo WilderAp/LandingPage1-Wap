@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "VR - EXECUTIVE MASTERY",
-  description: "Page description",
+  title: "Leadsculpt",
+  description: "Leadsculpt Company.",
 };
 
 import Hero from "@/components/hero";

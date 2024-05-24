@@ -25,7 +25,7 @@ const cardsInfo = [
     id: 3,
     title: "What makes us different",
     description:
-      "At VR Executive Mastery, we not only offer a virtual reality platform for management skills training, but we also provide a complete and personalized experience. Our attention to detail, our focus on quality and our passion for innovation set us apart in the market. In addition, our platform adapts to the specific needs of each client, guaranteeing effective and relevant learning.",
+      "At Leadsculpt, we not only offer a virtual reality platform for management skills training, but we also provide a complete and personalized experience. Our attention to detail, our focus on quality and our passion for innovation set us apart in the market. In addition, our platform adapts to the specific needs of each client, guaranteeing effective and relevant learning.",
     icon: <IoMdPaper size={75} />,
   },
 ];

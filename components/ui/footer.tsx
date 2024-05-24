@@ -24,8 +24,8 @@ export default function Footer() {
                   href="#0"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Join VR Executive Mastery today and discover how virtual
-                  reality can transform your professional development.
+                  Join Leadsculpt today and discover how virtual reality can
+                  transform your professional development.
                 </a>
               </li>
               <li className="mb-2">

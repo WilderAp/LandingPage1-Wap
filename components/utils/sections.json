@@ -14,7 +14,7 @@
     }, 
     "section-two": { 
         "hero": "",
-        "title": "Lead the future with VR Executive Mastery",
+        "title": "Lead the future with Leadsculpt",
         "body": "where innovation meets experience.",
         "button": "Discover Demo",
         "image": "https://res.cloudinary.com/db60chvpz/image/upload/v1715275799/VR%20Executive/ltsu1qd1bjia6pahsegv.png"
@@ -22,7 +22,7 @@
     "section-three": {
         "features": "",
         "title": "About us:",
-        "body": "At VR Executive Mastery, we are dedicated to driving the leadership of tomorrow through the cutting edge of technology. We are pioneers in the development of a virtual reality platform designed specifically for management skills training. With a team of technology and leadership experts, we are committed to taking executive training to a new level of immersion and effectiveness.",
+        "body": "At Leadsculpt, we are dedicated to driving the leadership of tomorrow through the cutting edge of technology. We are pioneers in the development of a virtual reality platform designed specifically for management skills training. With a team of technology and leadership experts, we are committed to taking executive training to a new level of immersion and effectiveness.",
         "item1": {
             "logo": "",
             "title": "We Innovate",
@@ -42,7 +42,7 @@
     "section-four": {
         "services": "",
         "title": "Why trust us",
-        "body": "Trust VR Executive Mastery to take your leadership development to the next level. We have a team of technology and leadership experts who are committed to your success. Our platform has been tested and supported by industry leaders, and our customer support is second to none. With us, you can trust that you will receive a top-notch training experience that will make a difference in your career and your company.",
+        "body": "Trust Leadsculpt to take your leadership development to the next level. We have a team of technology and leadership experts who are committed to your success. Our platform has been tested and supported by industry leaders, and our customer support is second to none. With us, you can trust that you will receive a top-notch training experience that will make a difference in your career and your company.",
         "items": [
         {
             "title": "Experience",
@@ -66,20 +66,20 @@
     "section-five": {
         "contact": "",
         "title": "Who has trusted us",
-        "body": "Leading companies in various industries, from innovative startups to Fortune 500 corporations, have trusted VR Executive Mastery to train their leaders and teams. Our clients include prominent names who recognize the value of technology and continuous training in business success.",
+        "body": "Leading companies in various industries, from innovative startups to Fortune 500 corporations, have trusted Leadsculpt to train their leaders and teams. Our clients include prominent names who recognize the value of technology and continuous training in business success.",
         "body2": "Call Us +123 456 789",
         "button": "¡Contact!"
     },
     "section-six": {
         "stats": "",
         "title": "Ready to take your leadership to the next level?",
-        "body": "Join VR Executive Mastery today and discover how virtual reality can transform your professional development.",
+        "body": "Join Leadsculpt today and discover how virtual reality can transform your professional development.",
         "button": "Contact Us"
     },
     "section-seven": {
         "teamMembers": "",
         "title": "Meet Our Experts",
-        "body": "At VR Executive Mastery, we are dedicated to revolutionizing management skills development. Our technology platform offers a unique immersive experience, where the leaders of tomorrow can train in a realistic virtual environment, facing challenges and making crucial decisions, all while receiving real-time feedback.",
+        "body": "At Leadsculpt, we are dedicated to revolutionizing management skills development. Our technology platform offers a unique immersive experience, where the leaders of tomorrow can train in a realistic virtual environment, facing challenges and making crucial decisions, all while receiving real-time feedback.",
         "members" : [
             {
               "id": 1,
@@ -147,9 +147,9 @@
     "section-nine": {
         "clients": "",
         "title": "What Our Clients Say",
-        "body": "Leadership in a New Horizon: VR Executive Mastery",
+        "body": "Leadership in a New Horizon: Leadsculpt",
         "client1": {
-            "body": "“ VR Executive Mastery has been a game changer for me as a leader. The ability to practice difficult situations in a virtual environment has given me the confidence and skills necessary to face real-world challenges. “",
+            "body": "“ Leadsculpt has been a game changer for me as a leader. The ability to practice difficult situations in a virtual environment has given me the confidence and skills necessary to face real-world challenges. “",
             "name": "Ana G",
             "role": "C E O"
         }
@@ -157,7 +157,7 @@
     "section-ten": {
         "band": "",
         "title": "¿Ready to take your leadership to the next level?",
-        "body": "Join VR Executive Mastery today and discover how virtual reality can transform your professional development."
+        "body": "Join Leadsculpt today and discover how virtual reality can transform your professional development."
     },
     "section-eleven": {
         "footer": "",
